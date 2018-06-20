@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aprender_csg.aprendercsg.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tanBackground"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/quimica_textview"
+            style="@style/SubjectStyle"
+            android:background="@color/subject_quimica"
+            android:text="Química" />
+
+        <TextView
+            android:id="@+id/biologia_superior_textview"
+            style="@style/SubjectStyle"
+            android:background="@color/subject_biolosup"
+            android:text="Biología Superior" />
+
+        <TextView
+            android:id="@+id/biologia_comun_textview"
+            style="@style/SubjectStyle"
+            android:background="@color/subject_biolocomun"
+            android:text="Biología Tronco Común" />
+
+        <TextView
+            android:id="@+id/fisica_textview"
+            style="@style/SubjectStyle"
+            android:background="@color/subject_fisica"
+            android:text="Física" />
+
+        <TextView
+            android:id="@+id/mate_superior_textview"
+            style="@style/SubjectStyle"
+            android:background="@color/subject_mate_superior"
+            android:text="Matemática Superior" />
+
+        <TextView
+            android:id="@+id/mate_comun_textview"
+            style="@style/SubjectStyle"
+            android:background="@color/subject_mate_comun"
+            android:text="Matemática Tronco Común" />
+
+    </LinearLayout>
+</ScrollView>

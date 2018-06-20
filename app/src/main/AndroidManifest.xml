@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aprender_csg.aprendercsg">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BiologiaComunActivity"
+            android:label="Biología Tronco Comúm"/>
+        <activity android:name=".MateComunActivity"
+            android:label="Matemática Tronco Comúm"/>
+        <activity android:name=".MateSuperiorActivity"
+            android:label="Matemática Superior"/>
+        <activity android:name=".BiologiaSuperiorActivity"
+            android:label="Biología Superior"/>
+        <activity android:name=".QuimicaActivity"
+            android:label="Química"/>
+        <activity android:name=".FisicaActivity"
+            android:label="Física"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4A312A</color>
+    <color name="colorPrimaryDark">#2F1D1A</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tanBackground">#FFF7DA</color>
+    <color name="subject_quimica">#FD8E09</color>
+    <color name="subject_mate_comun">#03DAC6</color>
+    <color name="subject_mate_superior">#C51162</color>
+    <color name="subject_fisica">#0077CC</color>
+    <color name="subject_biolosup">#379237</color>
+    <color name="subject_biolocomun">#8800A0</color>
+</resources>
